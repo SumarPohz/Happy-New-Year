@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    margin: 50px auto;
+}
+
+.main-image {
+    max-width: 80%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.whatsapp-link {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-decoration: none;
+}
+
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    background-color: #25d366;
+    padding: 10px 15px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.whatsapp-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.whatsapp-button span {
+    font-size: 16px;
+}
